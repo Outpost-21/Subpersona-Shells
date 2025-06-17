@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+	<HeadTypeDef>
+		<defName>SubAI_SubpersonaShellNormal</defName>
+		<graphicPath>SubpersonaAI/Shell/Head/Normal</graphicPath>
+		<randomChosen>false</randomChosen>
+		<gender>None</gender>
+		<hairMeshSize>(1.5, 1.5)</hairMeshSize>
+		<beardMeshSize>(1.5, 1.5)</beardMeshSize>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_HeadTypeStuff">
+				<useSkinShader>false</useSkinShader>
+				<shaderType>CutoutComplex</shaderType>
+			</li>
+			<li MayRequire="Neronix17.UI.PawnAdjuster" Class="PawnAdjust.DefModExt_HideInAdjuster" />
+		</modExtensions>
+	</HeadTypeDef>
+
+</Defs>

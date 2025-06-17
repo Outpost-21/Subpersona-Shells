@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="SubAI_ProgramCartridgeBase">
+		<defName>SubAI_ProgramConstruction</defName>
+		<label>program cartridge: construction</label>
+		<description>Cartridge designed for use in subpersona shells, contains a program which allows the shell to perform construction related actions.</description>
+		<graphicData>
+			<texPath>SubpersonaAI/ShellPrograms/Program_Construction</texPath>
+		</graphicData>
+		<modExtensions>
+			<li Class="SubpersonaAI.DefModExt_ProgramCartridge">
+				<skills>
+					<li>Construction</li>
+				</skills>
+				<trait>SubAI_ShellConstruction</trait>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<BackstoryDef>
+		<defName>SubAI_SubpersonaShell_Child</defName>
+		<title>Subpersona Shell</title>
+		<titleShort>Subpersona Shell</titleShort>
+		<baseDesc>Simple robotic shell.</baseDesc>
+		<slot>Childhood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>SubpersonaShellBackstory</li>
+		</spawnCategories>
+	</BackstoryDef>
+
+	<BackstoryDef>
+		<defName>SubAI_SubpersonaShell_Adult</defName>
+		<title>Subpersona Shell</title>
+		<titleShort>Subpersona Shell</titleShort>
+		<baseDesc>Nothing Special.</baseDesc>
+		<slot>Adulthood</slot>
+		<bodyTypeGlobal>Male</bodyTypeGlobal>
+		<spawnCategories>
+			<li>SubpersonaShellBackstory</li>
+		</spawnCategories>
+	</BackstoryDef>
+	
+</Defs>

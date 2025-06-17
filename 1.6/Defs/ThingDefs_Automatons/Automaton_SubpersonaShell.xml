@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Asimov.PawnDef ParentName="BasePawn">
+		<defName>SubAI_SubpersonaShell</defName>
+		<label>Subpersona Shell</label>
+		<description>A simple spacer design of humanoid robot, Shells are commonly used among spacer colonies to reinforce workers cheaply, using program cartridges they can be enabled to complete specific sets of complex tasks beyond their basic built-in programming.</description>
+		<!-- Start of Asimov Data -->
+		<pawnSettings>
+			<immuneToAge>true</immuneToAge>
+			<generateRelations>false</generateRelations>
+			<hasGrowthMoments>false</hasGrowthMoments>
+			<colonyCaresIfDead>false</colonyCaresIfDead>
+			<!-- Body -->
+			<headTypeWhitelist>
+				<li>SubAI_SubpersonaShellNormal</li>
+			</headTypeWhitelist>
+			<bodyTypeWhitelist>
+				<li>Male</li>
+			</bodyTypeWhitelist>
+			<!-- Styles -->
+			<allowHair>false</allowHair>
+			<allowBeards>false</allowBeards>
+			<allowTattoos>false</allowTattoos>
+			<!-- Traits -->
+			<onlyRestrictedTraits>true</onlyRestrictedTraits>
+			<traits />
+			<!-- Thoughts -->
+			<onlyRestrictedThoughts>true</onlyRestrictedThoughts>
+			<thoughts />
+			<!-- Backstories -->
+			<onlyRestrictedBackstories>true</onlyRestrictedBackstories>
+			<backstories>
+				<li>SubpersonaShellBackstory</li>
+			</backstories>
+		</pawnSettings>
+		<customGraphics>
+			<bodyPath>SubpersonaAI/Shell/Body/</bodyPath>
+			<shaderType>CutoutComplex</shaderType>
+			<skinColorPairs>
+				<li>
+					<!-- Default Factory Colours -->
+					<colorOne>(255, 255, 255)</colorOne>
+					<colorTwo>(255, 255, 255)</colorTwo>
+					<weight>100</weight>
+				</li>
+			</skinColorPairs>
+		</customGraphics>
+		<!-- End of Asimov Data -->
+		<tools>
+			<li>
+				<label>left fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>LeftHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>right fist</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>5.2</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>RightHand</linkedBodyPartsGroup>
+				<surpriseAttack>
+					<extraMeleeDamages>
+						<li>
+							<def>Stun</def>
+							<amount>14</amount>
+						</li>
+					</extraMeleeDamages>
+				</surpriseAttack>
+			</li>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<statBases>
+			<MarketValue>1500</MarketValue>
+			<Flammability>0.1</Flammability>
+			<ComfyTemperatureMin>-250</ComfyTemperatureMin>
+			<ComfyTemperatureMax>250</ComfyTemperatureMax>
+			<LeatherAmount>0</LeatherAmount>
+			<MeatAmount>0</MeatAmount>
+			<PsychicSensitivity>0</PsychicSensitivity>
+			<ToxicEnvironmentResistance MayRequire="Ludeon.RimWorld.Biotech">1</ToxicEnvironmentResistance>
+			<ToxicResistance>1</ToxicResistance>
+			<ImmunityGainSpeed>100</ImmunityGainSpeed>
+			<PainShockThreshold>10</PainShockThreshold>
+			<DecompressionResistance MayRequire="kentington.saveourship2">1</DecompressionResistance>
+			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+		</statBases>
+		<race>
+			<renderTree>Asimov_Automaton</renderTree>
+			<hasGenders>False</hasGenders>
+			<nameGenerator>SubAI_NameMakerShell</nameGenerator>
+			<baseBodySize>1</baseBodySize>
+			<baseHealthScale>1</baseHealthScale>
+			<fleshType>Asimov_Automaton</fleshType>
+			<thinkTreeMain>Humanlike</thinkTreeMain>
+			<thinkTreeConstant>HumanlikeConstant</thinkTreeConstant>
+			<intelligence>Humanlike</intelligence>
+			<makesFootprints>true</makesFootprints>
+			<lifeExpectancy>2500</lifeExpectancy>
+			<leatherDef>Leather_Human</leatherDef>
+			<bloodDef>SubAI_ShellOil</bloodDef>
+			<body>SubAI_HumanoidShell</body>
+			<useMeatFrom>Human</useMeatFrom>
+			<foodType>None</foodType>
+			<needsRest>false</needsRest>
+			<gestationPeriodDays>45</gestationPeriodDays>
+			<litterSizeCurve>
+				<points>
+					<li>(0.5, 0)</li>
+					<li>(1, 1)</li>
+					<li>(1.01, 0.02)</li>
+					<li>(3.5, 0)</li>
+				</points>
+			</litterSizeCurve>
+			<lifeStageAges>
+				<li>
+					<def>AdultHumanoidShellStage</def>
+					<minAge>0</minAge>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_Punch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_Punch_HitBuilding_Generic</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_Punch_Miss</soundMeleeMiss>
+			<specialShadowData>
+				<volume>(0.3, 0.8, 0.4)</volume>
+				<offset>(0,0,-0.3)</offset>
+			</specialShadowData>
+			<ageGenerationCurve>
+				<points>
+					<li>(0,0)</li>
+					<li>(1,100)</li>
+					<li>(2,100)</li>
+					<li>(4,30)</li>
+					<li>(20,18)</li>
+					<li>(60,0)</li>
+				</points>
+			</ageGenerationCurve>
+			<hediffGiverSets>
+				<li>Asimov_Automaton</li>
+				<li>SubAI_SubpersonaAI</li>
+			</hediffGiverSets>
+		</race>
+		<recipes>
+			<!-- Important Utility -->
+			<li>SubAI_ShutDown</li>
+		</recipes>
+		<comps>
+			<li Class="Asimov.CompProperties_Automaton">
+				<canUseRanged>true</canUseRanged>
+				<canUseMelee>true</canUseMelee>
+				<corpseEdible>false</corpseEdible>
+				<corpseRots>false</corpseRots>
+				<immuneToDisease>true</immuneToDisease>
+				<huntTarget>true</huntTarget>
+				<clearPassions>true</clearPassions>
+				<flattenSkills>true</flattenSkills>
+				<skillGainMulti>0.2</skillGainMulti>
+				<skillLossMulti>0</skillLossMulti>
+				<defaultSkillLevel>0</defaultSkillLevel>
+				<enableAllWorkTypes>true</enableAllWorkTypes>
+				<skillSettings>
+					<li>
+						<skill>Shooting</skill>
+						<level>12</level>
+					</li>
+					<li>
+						<skill>Melee</skill>
+						<level>12</level>
+					</li>
+					<li>
+						<skill>Construction</skill>
+						<level>6</level>
+					</li>
+					<li>
+						<skill>Mining</skill>
+						<level>6</level>
+					</li>
+				</skillSettings>
+				<disabledNeeds>
+					<li>Mood</li>
+					<li>Food</li>
+					<li>Rest</li>
+					<li>Joy</li>
+					<li>Beauty</li>
+					<li>Comfort</li>
+					<li>Outdoors</li>
+					<li>Indoors</li>
+					<li>DrugDesire</li>
+					<li>RoomSize</li>
+				</disabledNeeds>
+			</li>
+			<li Class="Asimov.CompProperties_RecolourablePawn">
+				<channelOne>true</channelOne>
+				<channelTwo>false</channelTwo>
+			</li>
+			<li Class="TabulaRasa.CompProperties_SlotLoadable">
+				<compClass>SubpersonaAI.Comp_ProgramCartridgeSlot</compClass>
+				<slots>
+					<li>SubAI_ProgramCartridgeSlot</li>
+				</slots>
+			</li>
+			<li Class="Asimov.CompProperties_Hibernation" />
+			<li Class="CompProperties_Stunnable">
+				<affectedDamageDefs>
+					<li>Stun</li>
+					<li>EMP</li>
+				</affectedDamageDefs>
+			</li>
+		</comps>
+		<modExtensions>
+			<li Class="Asimov.DefModExt_EnergyNeed" />
+			<li Class="TabulaRasa.DefModExt_DiseaseImmunity">
+				<hediffs>
+					<li>WoundInfection</li>
+					<li>BadBack</li>
+					<li>Frail</li>
+					<li>Cataract</li>
+					<li>HearingLoss</li>
+					<li>Blindness</li>
+					<li>Dementia</li>
+					<li>Alzheimers</li>
+					<li>Asthma</li>
+					<li>HeartArteryBlockage</li>
+					<li>Carcinoma</li>
+					<li>GutWorms</li>
+					<li>MuscleParasites</li>
+					<li>FibrousMechanites</li>
+					<li>SensoryMechanites</li>
+					<li>Flu</li>
+					<li>Plague</li>
+					<li>Malaria</li>
+					<li>SleepingSickness</li>
+					<li>TraumaSavant</li>
+					<li>ChemicalDamageModerate</li>
+					<li>ChemicalDamageSevere</li>
+					<li>Cirrhosis</li>
+					<li>ResurrectionPsychosis</li>
+					<li>Scaria</li>
+					<li>WaterInEyes</li>
+					<li MayRequire="Ludeon.RimWorld.Anomaly">MetalhorrorImplant</li>
+				</hediffs>
+			</li>
+		</modExtensions>
+		<butcherProducts>
+			<Steel>120</Steel>
+			<Plasteel>30</Plasteel>
+			<ComponentSpacer>2</ComponentSpacer>
+		</butcherProducts>
+		<researchPrerequisites>
+			<li>SubAI_SubpersonaShell</li>
+		</researchPrerequisites>
+	</Asimov.PawnDef>
+
+</Defs>
