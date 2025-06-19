@@ -1,0 +1,139 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\subpersona ai\\1.6\\source\\subpersonaai\\harmony\\patch_pawngenerator_generatepawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|solutionrelative:harmony\\patch_pawngenerator_generatepawn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\subpersona ai\\1.6\\source\\subpersonaai\\harmony\\patch_skillrecord_learn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|solutionrelative:harmony\\patch_skillrecord_learn.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\subpersona ai\\1.6\\source\\subpersonaai\\comps\\comp_programcartridgeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|solutionrelative:comps\\comp_programcartridgeslot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\subpersona ai\\1.6\\source\\subpersonaai\\comps\\comp_traitslottable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|solutionrelative:comps\\comp_traitslottable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\subpersona ai\\1.6\\source\\subpersonaai\\defmodextensions\\defmodext_shelltrait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|solutionrelative:defmodextensions\\defmodext_shelltrait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\subpersona ai\\1.6\\source\\subpersonaai\\defmodextensions\\defmodext_programcartridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|solutionrelative:defmodextensions\\defmodext_programcartridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|f:\\rwmodcategories\\neronix17\\_smallmods\\subpersona ai\\1.6\\source\\subpersonaai\\floatmenus\\floatmenuoptionprovider_equipprogramcartridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69E954BA-4A80-4167-A5B4-13BBE7F1D373}|SubpersonaAI.csproj|solutionrelative:floatmenus\\floatmenuoptionprovider_equipprogramcartridge.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Patch_PawnGenerator_GeneratePawn.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\Harmony\\Patch_PawnGenerator_GeneratePawn.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_PawnGenerator_GeneratePawn.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\Harmony\\Patch_PawnGenerator_GeneratePawn.cs",
+              "RelativeToolTip": "Harmony\\Patch_PawnGenerator_GeneratePawn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:29:00.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Patch_SkillRecord_Learn.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\Harmony\\Patch_SkillRecord_Learn.cs",
+              "RelativeDocumentMoniker": "Harmony\\Patch_SkillRecord_Learn.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\Harmony\\Patch_SkillRecord_Learn.cs",
+              "RelativeToolTip": "Harmony\\Patch_SkillRecord_Learn.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:28:58.936Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Comp_ProgramCartridgeSlot.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\Comps\\Comp_ProgramCartridgeSlot.cs",
+              "RelativeDocumentMoniker": "Comps\\Comp_ProgramCartridgeSlot.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\Comps\\Comp_ProgramCartridgeSlot.cs",
+              "RelativeToolTip": "Comps\\Comp_ProgramCartridgeSlot.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:28:51.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Comp_TraitSlottable.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\Comps\\Comp_TraitSlottable.cs",
+              "RelativeDocumentMoniker": "Comps\\Comp_TraitSlottable.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\Comps\\Comp_TraitSlottable.cs",
+              "RelativeToolTip": "Comps\\Comp_TraitSlottable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:28:50.547Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DefModExt_ProgramCartridge.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\DefModExtensions\\DefModExt_ProgramCartridge.cs",
+              "RelativeDocumentMoniker": "DefModExtensions\\DefModExt_ProgramCartridge.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\DefModExtensions\\DefModExt_ProgramCartridge.cs",
+              "RelativeToolTip": "DefModExtensions\\DefModExt_ProgramCartridge.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:28:48.618Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DefModExt_ShellTrait.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\DefModExtensions\\DefModExt_ShellTrait.cs",
+              "RelativeDocumentMoniker": "DefModExtensions\\DefModExt_ShellTrait.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\DefModExtensions\\DefModExt_ShellTrait.cs",
+              "RelativeToolTip": "DefModExtensions\\DefModExt_ShellTrait.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T14:28:47.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "FloatMenuOptionProvider_EquipProgramCartridge.cs",
+              "DocumentMoniker": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\FloatMenus\\FloatMenuOptionProvider_EquipProgramCartridge.cs",
+              "RelativeDocumentMoniker": "FloatMenus\\FloatMenuOptionProvider_EquipProgramCartridge.cs",
+              "ToolTip": "F:\\RWModCategories\\Neronix17\\_SmallMods\\Subpersona AI\\1.6\\Source\\SubpersonaAI\\FloatMenus\\FloatMenuOptionProvider_EquipProgramCartridge.cs",
+              "RelativeToolTip": "FloatMenus\\FloatMenuOptionProvider_EquipProgramCartridge.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAxwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-19T11:15:56.583Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

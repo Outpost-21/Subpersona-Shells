@@ -10,3 +10,7 @@ F:\RWModCategories\Neronix17\_SmallMods\Subpersona AI\1.5\Source\SubpersonaAI\ob
 F:\RWModCategories\Neronix17\_SmallMods\Subpersona AI\1.5\Source\SubpersonaAI\obj\Debug\SubpersonaAI.csproj.CoreCompileInputs.cache
 F:\RWModCategories\Neronix17\_SmallMods\Subpersona AI\1.5\Source\SubpersonaAI\obj\Debug\SubpersonaAI.dll
 F:\RWModCategories\Neronix17\_SmallMods\Subpersona AI\1.5\Assemblies\SubpersonaAI.dll
+F:\RWModCategories\Neronix17\_SmallMods\Subpersona AI\1.6\Source\SubpersonaAI\obj\Debug\SubpersonaAI.csproj.AssemblyReference.cache
+F:\RWModCategories\Neronix17\_SmallMods\Subpersona AI\1.6\Source\SubpersonaAI\obj\Debug\SubpersonaAI.csproj.CoreCompileInputs.cache
+F:\RWModCategories\Neronix17\_SmallMods\Subpersona AI\1.6\Source\SubpersonaAI\obj\Debug\SubpersonaAI.dll
+F:\RWModCategories\Neronix17\_SmallMods\Subpersona AI\1.6\Assemblies\SubpersonaAI.dll
