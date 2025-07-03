@@ -1,0 +1,75 @@
+ManifestFileVersion: 0
+CRC: 880795974
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: 1dbf9624f5cc016ff9ff0ec2dac8ca10
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: ce3b6d18a872ca8039cd5eb3c4fb7ef5
+  IncrementalBuildHash:
+    serializedVersion: 2
+    Hash: 1dbf9624f5cc016ff9ff0ec2dac8ca10
+HashAppended: 0
+ClassTypes:
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 83
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell0_east.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellReconstructor/ShellReconstructor_north.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Head/Normal_north.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Body/Naked_Male_northm.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Body/Naked_Male_north.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Body/Naked_Male_east.png
+- Assets/Data/Neronix17.SubpersonaShells/Sounds/OvenDing.wav
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/MapWideTransmitter_MenuIcon.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/ShellCrafter_north.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell2_south.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell0_south.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell3_north.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell3_east.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell3_west.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Head/Normal_northm.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell1_east.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Crafting.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Body/Naked_Male_south.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Farming.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Preview.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/EnergyPackFull/EnergyPackFull_a.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/EnergyPackFull/EnergyPackFull_b.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/EnergyPackEmpty/EnergyPackEmpty_b.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell3_south.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell0_north.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell1_west.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Mining.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Construction.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/ShellCrafter_east.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/ShellCrafter_south.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellReconstructor/ShellReconstructor_east.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Body/Naked_Male_southm.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell2_west.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Head/Normal_southm.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Cooking.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Military.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/EnergyPackEmpty/EnergyPackEmpty_c.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/MapWideTransmitter.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell1_south.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell0_west.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/EnergyPackEmpty/EnergyPackEmpty_a.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellReconstructor/ShellReconstructor_south.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell2_north.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell2_east.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/AreaTransmitter.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Head/Normal_eastm.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Body/Naked_Male_eastm.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/EnergyPackFull/EnergyPackFull_c.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Head/Normal_east.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/Shell/Head/Normal_south.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Ranching.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Science.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellCrafter/Shell1_north.png
+- Assets/Data/Neronix17.SubpersonaShells/Textures/SubpersonaAI/ShellPrograms/Program_Medical.png
+Dependencies: []
