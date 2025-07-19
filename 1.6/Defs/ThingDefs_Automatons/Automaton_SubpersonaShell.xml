@@ -108,6 +108,7 @@
 			<PainShockThreshold>10</PainShockThreshold>
 			<DecompressionResistance MayRequire="kentington.saveourship2">1</DecompressionResistance>
 			<HypoxiaResistance MayRequire="kentington.saveourship2">1</HypoxiaResistance>
+			<VacuumResistance MayRequire="Ludeon.RimWorld.Odyssey">1</VacuumResistance>
 		</statBases>
 		<race>
 			<renderTree>Asimov_Automaton</renderTree>
