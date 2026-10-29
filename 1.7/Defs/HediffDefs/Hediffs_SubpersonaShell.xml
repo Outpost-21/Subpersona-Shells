@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	
+	<HediffGiverSetDef>
+		<defName>SubAI_SubpersonaAI</defName>
+		<hediffGivers>
+			<li Class="TabulaRasa.HediffGiver_Racial">
+				<hediff>SubAI_SubpersonaAISoftware</hediff>
+			</li>
+		</hediffGivers>
+	</HediffGiverSetDef>
+
+	<HediffDef>
+		<defName>SubAI_SubpersonaAISoftware</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>subpersona ai</label>
+		<description>This construct is run by a subpersona ai.</description>
+		<defaultLabelColor>(0.6,0.85,0.91)</defaultLabelColor>
+		<isBad>false</isBad>
+		<scenarioCanAdd>false</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<stages>
+			<li>
+				<capMods />
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

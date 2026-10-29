@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<ThingDef ParentName="SubAI_ProgramCartridgeBase">
+		<defName>SubAI_ProgramMining</defName>
+		<label>program cartridge: mining</label>
+		<description>Cartridge designed for use in subpersona shells, contains a program which allows the shell to perform mining related actions.</description>
+		<graphicData>
+			<texPath>SubpersonaAI/ShellPrograms/Program_Mining</texPath>
+		</graphicData>
+		<modExtensions>
+			<li Class="SubpersonaAI.DefModExt_ProgramCartridge">
+				<skills>
+					<li>Mining</li>
+				</skills>
+				<trait>SubAI_ShellMining</trait>
+			</li>
+		</modExtensions>
+	</ThingDef>
+
+</Defs>

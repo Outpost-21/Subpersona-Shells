@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<TabulaRasa.SlotLoadableDef>
+		<defName>SubAI_ProgramCartridgeSlot</defName>
+		<thingClass>TabulaRasa.SlotLoadable</thingClass>
+		<label>Program Cartridge</label>
+		<description>Slot for inserting a program cartridge.</description>
+		<slottableThingDefs>
+			<li>SubAI_ProgramMilitary</li>
+			<li>SubAI_ProgramMedical</li>
+			<li>SubAI_ProgramFarming</li>
+			<li>SubAI_ProgramMining</li>
+			<li>SubAI_ProgramConstruction</li>
+			<li>SubAI_ProgramScience</li>
+			<li>SubAI_ProgramRanching</li>
+			<li>SubAI_ProgramCooking</li>
+			<li>SubAI_ProgramCrafting</li>
+		</slottableThingDefs>
+		<!-- UseHitPoints has to be disabled otherwise it will show a nonsensical % value. -->
+		<useHitPoints>False</useHitPoints>
+	</TabulaRasa.SlotLoadableDef>
+
+</Defs>

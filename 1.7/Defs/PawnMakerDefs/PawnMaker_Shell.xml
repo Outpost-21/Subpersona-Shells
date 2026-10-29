@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<Asimov.AutomatonRecipeDef ParentName="AsimovAutomatonRecipeBase">
+		<defName>SubAI_CreateSubpersonaShell</defName>
+		<label>create subpersona shell</label>
+		<description>Create a subpersona shell.</description>
+		<jobString>creating subpersona shell.</jobString>
+		<workAmount>60000</workAmount>
+		<costList>
+			<Steel>240</Steel>
+			<Plasteel>60</Plasteel>
+			<ComponentSpacer>8</ComponentSpacer>
+		</costList>
+		<researchPrerequisite>SubAI_SubpersonaShell</researchPrerequisite>
+		<pawnKind>SubAI_CraftedSubpersonaShell</pawnKind>
+		<recipeIcon>SubpersonaAI/Shell/Preview</recipeIcon>
+	</Asimov.AutomatonRecipeDef>
+
+	<PawnKindDef>
+		<defName>SubAI_CraftedSubpersonaShell</defName>
+		<label>subpersona shell</label>
+		<race>SubAI_SubpersonaShell</race>
+		<combatPower>40</combatPower>
+		<isFighter>false</isFighter>
+		<apparelIgnoreSeasons>true</apparelIgnoreSeasons>
+		<forceNormalGearQuality>true</forceNormalGearQuality>
+		<defaultFactionType>PlayerColony</defaultFactionType>
+		<backstoryFiltersOverride>
+			<li>
+				<categories>
+					<li>SubpersonaShellBackstory</li>
+				</categories>
+			</li>
+		</backstoryFiltersOverride>
+		<apparelTags Inherit="false" />
+		<apparelAllowHeadgearChance>0</apparelAllowHeadgearChance>
+		<apparelMoney>
+			<min>0</min>
+			<max>0</max>
+		</apparelMoney>
+		<techHediffsChance>0.0</techHediffsChance>
+		<techHediffsMoney>
+			<min>0</min>
+			<max>0</max>
+		</techHediffsMoney>
+		<techHediffsTags Inherit="false" />
+		<initialWillRange>0</initialWillRange>
+		<initialResistanceRange>30~40</initialResistanceRange>
+		<modExtensions>
+			<li Class="TabulaRasa.DefModExt_PawnKindExtended">
+				<flattenSkills>True</flattenSkills>
+				<clearPassions>True</clearPassions>
+				<clearApparel>True</clearApparel>
+			</li>
+		</modExtensions>
+	</PawnKindDef>
+
+</Defs>

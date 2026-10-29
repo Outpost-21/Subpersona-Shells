@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="BuildingBase">
+		<defName>SubAI_SubpersonaFabricator</defName>
+		<label>subpersona fabricator</label>
+		<description>An advanced fabrication vat used in the creation of subpersona shells.</description>
+		<thingClass>Asimov.Building_AutoCrafter</thingClass>
+		<graphicData>
+			<texPath>SubpersonaAI/ShellCrafter/ShellCrafter</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(2,2)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<castEdgeShadows>false</castEdgeShadows>
+		<drawerType>MapMeshAndRealTime</drawerType>
+		<costList>
+			<Steel>150</Steel>
+			<Plasteel>80</Plasteel>
+			<ComponentSpacer>14</ComponentSpacer>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>3000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Cleanliness>-2</Cleanliness>
+		</statBases>
+		<size>(1,2)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(-1,0,0)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<tickerType>Normal</tickerType>
+		<constructionSkillPrerequisite>4</constructionSkillPrerequisite>
+        <inspectorTabs>
+            <li>Asimov.ITab_AutoCrafter</li>
+        </inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="Asimov.CompProperties_AutoCrafter">
+				<craftingTimeMulti>1.0</craftingTimeMulti>
+				<recipes>
+					<li>SubAI_CreateSubpersonaShell</li>
+				</recipes>
+			</li>
+			<li Class="Asimov.CompProperties_AutoCrafterOverlay">
+				<recipeStates>
+					<li>
+						<recipeDef>SubAI_CreateSubpersonaShell</recipeDef>
+						<states>
+							<li>
+								<texPath>SubpersonaAI/ShellCrafter/Shell0</texPath>
+								<progress>0</progress>
+							</li>
+							<li>
+								<texPath>SubpersonaAI/ShellCrafter/Shell1</texPath>
+								<progress>0.25</progress>
+							</li>
+							<li>
+								<texPath>SubpersonaAI/ShellCrafter/Shell2</texPath>
+								<progress>0.5</progress>
+							</li>
+							<li>
+								<texPath>SubpersonaAI/ShellCrafter/Shell3</texPath>
+								<progress>0.75</progress>
+							</li>
+						</states>
+					</li>
+				</recipeStates>
+			</li>
+		</comps>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>SubAI_SubpersonaShell</li>
+		</researchPrerequisites>
+	</ThingDef>
+
+</Defs>
